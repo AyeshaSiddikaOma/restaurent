@@ -126,7 +126,7 @@
     <!-- Food Part End -->
 
     <!-- Menu Part Start -->
-    <div class="container mt-10">
+    <div class="container menu mt-10">
       <h2
         class="text-center text-[50px] font-normal w-178.25 mx-auto leading-14.25"
       >
@@ -136,46 +136,46 @@
         <li
           class="py-2.5 px-5.5 rounded-2xl duration-300 transition-all inline-block hover:border-b-4 hover:border-amber-100"
         >
-          <a href="#">All</a>
+          <a href="avascript:void(0)"  data-filter="all">All</a>
         </li>
         <li
           class="py-2.5 px-5.5 rounded-2xl duration-300 transition-all inline-block hover:border-b-4 hover:border-amber-100"
         >
-          <a href="#">Bread</a>
+          <a href="avascript:void(0)"  data-filter=".bread">Bread</a>
         </li>
         <li
           class="py-2.5 px-5.5 rounded-2xl duration-300 transition-all inline-block hover:border-b-4 hover:border-amber-100"
         >
-          <a href="#">Chiffon & Rolls</a>
+          <a href="avascript:void(0)" data-filter=".chiffon">Chiffon & Rolls</a>
         </li>
         <li
           class="py-2.5 px-5.5 rounded-2xl duration-300 transition-all inline-block hover:border-b-4 hover:border-amber-100"
         >
-          <a href="#">Donut</a>
+          <a href="avascript:void(0)" data-filter=".donut">Donut</a>
         </li>
         <li
           class="py-2.5 px-5.5 rounded-2xl duration-300 transition-all inline-block hover:border-b-4 hover:border-amber-100"
         >
-          <a href="#">Tacos</a>
+          <a href="avascript:void(0)" data-filter=".tacos">Tacos</a>
         </li>
         <li
           class="py-2.5 px-5.5 rounded-2xl duration-300 transition-all inline-block hover:border-b-4 hover:border-amber-100"
         >
-          <a href="#">Cakes</a>
+          <a href="avascript:void(0)"   data-filter=".cakes">Cakes</a>
         </li>
         <li
           class="py-2.5 px-5.5 rounded-2xl duration-300 transition-all inline-block hover:border-b-4 hover:border-amber-100"
         >
-          <a href="#">Cookies</a>
+          <a href="avascript:void(0)" data-filter=".cookies">Cookies</a>
         </li>
       </ul>
       <!-- Boxes -->
 
-      <div class="flex  flex-wrap mt-10 justify-between">
+      <div class="flex flex-wrap mt-10 justify-between oma">
         <!-- Box 1 -->
 
         <div
-          class="w-[30%] p-5 bg-[#212121] transition-all duration-300 ease-out hover:scale-110"
+          class="w-[30%]  mix bread p-5 bg-[#212121] transition-all duration-300 ease-out hover:scale-110"
         >
           <img class="mx-auto" src="images/burger.png" alt="burger.png" />
           <div class="">
@@ -192,7 +192,7 @@
         </div>
         <!-- Box 2 -->
         <div
-          class="w-[30%] p-5 bg-[#212121] transition-all duration-300 ease-out hover:scale-110"
+          class="w-[30%] p-5 bg-[#212121] mix bread transition-all  mix chiffon  duration-300 ease-out hover:scale-110"
         >
           <img class="mx-auto" src="images/burger.png" alt="burger.png" />
           <div class="">
@@ -209,7 +209,7 @@
         </div>
         <!-- Box 3 -->
         <div
-          class="w-[30%] p-5 bg-[#212121] transition-all duration-300 ease-out hover:scale-110"
+          class="w-[30%] p-5 mix cakes bg-[#212121] transition-all duration-300 ease-out hover:scale-110"
         >
           <img class="mx-auto" src="images/burger.png" alt="burger.png" />
           <div class="">
@@ -225,10 +225,10 @@
           </div>
         </div>
 
-          <!-- Box 4 -->
+        <!-- Box 4 -->
 
         <div
-          class="w-[30%] p-5 bg-[#212121] transition-all duration-300 mt-10 ease-out hover:scale-110"
+          class="w-[30%] p-5 bg-[#212121]  mix cookiestransition-all duration-300 mt-10 ease-out hover:scale-110"
         >
           <img class="mx-auto" src="images/burger.png" alt="burger.png" />
           <div class="">
@@ -243,10 +243,10 @@
             </div>
           </div>
         </div>
-          <!-- Box 6 -->
+        <!-- Box 6 -->
 
         <div
-          class="w-[30%] p-5 bg-[#212121] transition-all duration-300 mt-10 ease-out hover:scale-110"
+          class="w-[30%] p-5 bg-[#212121] chiffon mix  transition-all duration-300 mt-10 ease-out hover:scale-110"
         >
           <img class="mx-auto" src="images/burger.png" alt="burger.png" />
           <div class="">
@@ -264,7 +264,7 @@
         <!-- Box 7 -->
 
         <div
-          class="w-[30%] p-5 bg-[#212121] transition-all duration-300 mt-10 ease-out hover:scale-110"
+          class="w-[30%] p-5  mix tacos bg-[#212121] transition-all duration-300 mt-10 ease-out hover:scale-110"
         >
           <img class="mx-auto" src="images/burger.png" alt="burger.png" />
           <div class="">
@@ -279,14 +279,12 @@
             </div>
           </div>
         </div>
-
       </div>
-<div class="mt-20 text-center   transition-all duration-300 hover:-translate-y-4">
-        <a href="#" class="commonBtn  pointer ">See More</a>
-
-</div>
-
-
+      <div
+        class="mt-20 text-center transition-all duration-300 hover:-translate-y-4"
+      >
+        <a href="#" class="commonBtn pointer">See More</a>
+      </div>
     </div>
     <!-- Menu Part End -->
 
@@ -307,5 +305,14 @@
 
     <!-- Header Part Start -->
     <!-- Header Part End -->
+
+    <!-- All JS Link Start -->
+         <script src="js/jquery-1.12.4.min.js"></script>
+
+    <script src="js/mixitup.min.js"></script>
+    <script>
+      var mixer = mixitup(".oma");
+    </script>
+    <!-- All JS Link End -->
   </body>
 </html>
