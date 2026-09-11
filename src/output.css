@@ -310,6 +310,12 @@
   .h-20 {
     height: calc(var(--spacing) * 20);
   }
+  .h-87 {
+    height: calc(var(--spacing) * 87);
+  }
+  .h-87\.5 {
+    height: calc(var(--spacing) * 87.5);
+  }
   .h-\[350px\] {
     height: 350px;
   }
@@ -396,6 +402,9 @@
   }
   .flex-wrap {
     flex-wrap: wrap;
+  }
+  .flex-wrap-reverse {
+    flex-wrap: wrap-reverse;
   }
   .items-center {
     align-items: center;
@@ -811,6 +820,9 @@
     }
   }
   @media (width >= 48rem) {
+    .md\:h-100 {
+      height: calc(var(--spacing) * 100);
+    }
     .md\:h-\[400px\] {
       height: 400px;
     }
