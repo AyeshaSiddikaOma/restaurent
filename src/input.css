@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+@theme{
+      --font-inter: "Inter", sans-serif;
+
+}
+
+@utility container{
+    @apply w-292.5 mx-auto;
+}
+
+@utility commonBtn{
+    @apply px-12.5 py-5 bg-white rounded-4xl text-black
+}
