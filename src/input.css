@@ -6,7 +6,7 @@
 }
 
 @utility container{
-    @apply w-292.5 mx-auto;
+    @apply  w-full lg:max-w-292.5 mx-auto;
 }
 
 @utility commonBtn{
