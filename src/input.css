@@ -10,6 +10,6 @@
 }
 
 @utility commonBtn{
-    @apply px-12.5 py-5 bg-white rounded-4xl text-black
+    @apply lg:px-12.5 lg:py-5 bg-white rounded-4xl text-black px-[80px]  py-[15px]
 }
 
